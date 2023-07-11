@@ -1,0 +1,86 @@
+{
+  "CONTEXT_01": {
+    "code": "CONTEXT_01",
+    "background_url": "img-01.jpg",
+    "class_name": "context-01",
+    "description": "Start",
+    "actions": [
+      {
+        "action": "none",
+        "width": "33.333%"
+      },
+      {
+        "action": "CONTEXT_02_M",
+        "width": "33.333%"
+      },
+      {
+        "action": "CONTEXT_02_R",
+        "width": "33.333%"
+      }
+    ]
+  },
+  "CONTEXT_02_M": {
+    "code": "CONTEXT_02_M",
+    "background_url": "img-02-m.jpg",
+    "class_name": "context-01-m",
+    "description": "House",
+    "actions": [
+      {
+        "action": "CONTEXT_01",
+        "width": "100%"
+      }
+    ]
+  },
+  "CONTEXT_02_R": {
+    "code": "CONTEXT_02_R",
+    "background_url": "img-02-r.jpg",
+    "class_name": "context-02-r",
+    "description": "C side",
+    "actions": [
+      {
+        "action": "CONTEXT_01",
+        "width": "33.333%"
+      },
+      {
+        "action": "CONTEXT_03_M",
+        "width": "33.333%"
+      },
+      {
+        "action": "CONTEXT_04_L",
+        "width": "33.333%"
+      }
+    ]
+  },
+  "CONTEXT_03_M": {
+    "code": "CONTEXT_03_M",
+    "background_url": "img-03-m.jpg",
+    "class_name": "context-03-m",
+    "description": "B side",
+    "actions": [
+      {
+        "action": "CONTEXT_04_L",
+        "width": "50%"
+      },
+      {
+        "action": "CONTEXT_02_R",
+        "width": "50%"
+      }
+    ]
+  },
+  "CONTEXT_04_L": {
+    "code": "CONTEXT_04_L",
+    "background_url": "img-04-l.jpg",
+    "class_name": "context-04-l",
+    "description": "Top",
+    "actions": [
+      {
+        "action": "CONTEXT_02_R",
+        "width": "50%"
+      },
+      {
+        "action": "CONTEXT_03_M",
+        "width": "50%"
+      }
+    ]
+  }
+}
