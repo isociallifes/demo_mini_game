@@ -1,0 +1,25 @@
+@mixin outer-bg {
+  height: 200px;
+  background-color: rgb(22, 72, 79);
+}
+
+.site {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .header {
+    @include outer-bg()
+  }
+
+  .main-site {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    @include outer-bg()
+  }
+}
