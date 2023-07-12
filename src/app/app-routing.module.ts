@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ROUTER_CONST } from './shared/const/app.const';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: ROUTER_CONST.HOME,
     pathMatch: 'full',
     loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule)
   },
   {
-    path: 'game-content',
+    path: ROUTER_CONST.START_GAME,
     pathMatch: 'full',
     loadChildren: () => import('./modules/game-content/game-content.module').then(m => m.GameContentModule)
   },

@@ -1,4 +1,4 @@
 export interface ActionModel {
-  action: string
+  destination: string
   width?: string
 }

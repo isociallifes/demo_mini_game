@@ -1,6 +1,16 @@
 <div class="wrap-context">
   <div class="header"></div>
   <div class="context-content">
+    <div *ngIf="currentContent.code === CONTEXT_01" class="road-name">
+      <p>Con đường bí mật</p>
+      <p>Con đường tiền tài</p>
+      <p>Con đường dục vọng</p>
+    </div>
     <img class="image" src="./../../../assets/imgs/{{currentContent.background_url}}" alt="demo game">
+    <div class="actions">
+      <ng-container *ngFor="let action of currentContent.actions">
+        <div class="action-detail" [ngStyle]="{'width': action.width}" (click)="onTriggerAction(action)"></div>
+      </ng-container>
+    </div>
   </div>
 </div>

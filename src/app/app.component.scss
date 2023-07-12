@@ -1,6 +1,11 @@
 @mixin outer-bg {
   height: 200px;
   background-color: rgb(22, 72, 79);
+  display: flex;
+  justify-content: center;
+  color: rgb(226, 245, 239);
+  flex-direction: column;
+  align-items: center;
 }
 
 .site {
@@ -10,7 +15,7 @@
   justify-content: space-between;
 
   .header {
-    @include outer-bg()
+    @include outer-bg();
   }
 
   .main-site {
@@ -20,6 +25,6 @@
   }
 
   .footer {
-    @include outer-bg()
+    @include outer-bg();
   }
 }

@@ -1,9 +1,18 @@
 <div class="site">
-  <header class="header"></header>
-
+  <header class="header">
+    <div *ngIf="currentUrl === ROUTER_CONST.START_GAME">
+      <p>Hãy tưởng tượng bạn bị chuyển giới</p>
+      <p>Oh!!!...</p>
+      <p>Hãy tưởng tượng bạn bị dịch chuyển tới một ngọn đồi.</p>
+      <p>Ở đấy chỉ có... mấy cái cây. Bạn sẽ làm gì để sống sót?</p>
+      <h3>Hãy chọn ngay cho mình một con đường</h3>
+    </div>
+  </header>
   <div class="main-site">
     <router-outlet></router-outlet>
   </div>
 
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <h1>Wish you have a nice day!</h1>
+  </footer>
 </div>

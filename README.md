@@ -4,6 +4,11 @@ Hi everyone, this is a demo project.
 ## Project info
 - Node: 18.12.0
 - Angular CLI:15.2.6
+
+## Setup environment
+- Required install: nodejs, angular-cli
+
+After cloned project, run the command line `npm install` to install nodemodule for project.
 ## Build project
 Command line: `npm run build`
 

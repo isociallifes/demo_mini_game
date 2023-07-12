@@ -6,15 +6,15 @@
     "description": "Start",
     "actions": [
       {
-        "action": "none",
+        "destination": "none",
         "width": "33.333%"
       },
       {
-        "action": "CONTEXT_02_M",
+        "destination": "CONTEXT_02_M",
         "width": "33.333%"
       },
       {
-        "action": "CONTEXT_02_R",
+        "destination": "CONTEXT_02_R",
         "width": "33.333%"
       }
     ]
@@ -26,7 +26,7 @@
     "description": "House",
     "actions": [
       {
-        "action": "CONTEXT_01",
+        "destination": "CONTEXT_01",
         "width": "100%"
       }
     ]
@@ -38,15 +38,15 @@
     "description": "C side",
     "actions": [
       {
-        "action": "CONTEXT_01",
+        "destination": "CONTEXT_01",
         "width": "33.333%"
       },
       {
-        "action": "CONTEXT_03_M",
+        "destination": "CONTEXT_03_M",
         "width": "33.333%"
       },
       {
-        "action": "CONTEXT_04_L",
+        "destination": "CONTEXT_04_L",
         "width": "33.333%"
       }
     ]
@@ -58,12 +58,12 @@
     "description": "B side",
     "actions": [
       {
-        "action": "CONTEXT_04_L",
-        "width": "50%"
+        "destination": "CONTEXT_04_L",
+        "width": "30%"
       },
       {
-        "action": "CONTEXT_02_R",
-        "width": "50%"
+        "destination": "CONTEXT_02_R",
+        "width": "70%"
       }
     ]
   },
@@ -74,12 +74,12 @@
     "description": "Top",
     "actions": [
       {
-        "action": "CONTEXT_02_R",
-        "width": "50%"
+        "destination": "CONTEXT_02_R",
+        "width": "40%"
       },
       {
-        "action": "CONTEXT_03_M",
-        "width": "50%"
+        "destination": "CONTEXT_03_M",
+        "width": "60%"
       }
     ]
   }
