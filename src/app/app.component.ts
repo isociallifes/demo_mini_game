@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Route, Router } from '@angular/router';
+import { NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs';
 import { ROUTER_CONST } from './shared/const/app.const';
 
@@ -14,7 +14,6 @@ export class AppComponent implements OnInit{
   readonly ROUTER_CONST = ROUTER_CONST
 
   constructor(
-    private activalRouter: ActivatedRoute,
     private router: Router
   ){}
 

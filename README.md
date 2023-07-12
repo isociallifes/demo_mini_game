@@ -17,3 +17,7 @@ Run `npm run start` or `ng serve` for a dev server. Navigate to http://localhost
 Command line: `npm run start`
 
 Run `npm run start` or `ng build` to build the project. The build artifacts will be stored in the dist/ directory.
+
+## Report
+- Thời gian làm khoảng 4 tiếng.
+- Do không có nhiều thời gian nên em chưa xử lý response.
